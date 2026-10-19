@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="pricing-section">
+        <h1>Choose Your Plan</h1>
+        <p class="subtitle">
+            Simple pricing for everyone. Upgrade anytime!
+        </p>
+
+        <div class="billing-toggle">
+            <button id="monthly-btn" class="active"
+                aria-pressed="true">Monthly</button>
+
+            <button id="yearly-btn"
+                aria-pressed="false">Yearly</button>
+        </div>
+
+        <div class="pricing-container">
+
+            <article class="pricing-card">
+                <h2>Starter</h2>
+                <p>Perfect for beginners</p>
+
+                <div class="price">
+                    ₹<span class="amount"
+                        data-monthly="199"
+                        data-yearly="1910">199</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <ul>
+                    <li>✓ 1 User</li>
+                    <li>✓ 5 Projects</li>
+                    <li>✓ Basic Support</li>
+                    <li>✓ Basic Analytics</li>
+                    <li>✓ 5 GB Storage</li>
+                </ul>
+
+                <button class="choose-btn">Choose Plan</button>
+            </article>
+
+            <article class="pricing-card popular">
+                <span class="badge">Most Popular</span>
+
+                <h2>Pro</h2>
+                <p>Perfect for professionals</p>
+
+                <div class="price">
+                    ₹<span class="amount"
+                        data-monthly="499"
+                        data-yearly="4790">499</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <ul>
+                    <li>✓ 5 Users</li>
+                    <li>✓ Unlimited Projects</li>
+                    <li>✓ Priority Support</li>
+                    <li>✓ Advanced Analytics</li>
+                    <li>✓ 50 GB Storage</li>
+                </ul>
+
+                <button class="choose-btn">Choose Plan</button>
+            </article>
+
+            <article class="pricing-card">
+                <h2>Team</h2>
+                <p>Perfect for growing teams</p>
+
+                <div class="price">
+                    ₹<span class="amount"
+                        data-monthly="999"
+                        data-yearly="9590">999</span>
+                    <span class="period">/month</span>
+                </div>
+
+                <ul>
+                    <li>✓ 20 Users</li>
+                    <li>✓ Unlimited Projects</li>
+                    <li>✓ 24/7 Support</li>
+                    <li>✓ Premium Analytics</li>
+                    <li>✓ 200 GB Storage</li>
+                </ul>
+
+                <button class="choose-btn">Choose Plan</button>
+            </article>
+
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
